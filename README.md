@@ -1,2 +1,2 @@
 # Retail-Store
-It is anonline retail website in which user can search and buy electronic products .
+It is an online retail website in which user can search and buy electronic products .
