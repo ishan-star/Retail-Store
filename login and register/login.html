@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>retail store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<body>
+    <p id="title">Retail Store</p>
+        
+    
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+        <h1>LOGIN</h1>
+        <form action="/index.html">
+            <p>Username</p>
+            <input type="text" class="different" required name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" class="different" required name="" placeholder="Enter Password">
+            
+            <input type="submit"  class = "enter" name="" value="Login">
+            <p id="or"> OR </p>
+            <input type="button" class="enter-create" name="" value="Create an account ">
+        </form>
+        
+    </div>
+<div class="modal" id="email-modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content-left">
+            <img id="modal-img" src="signupimg.svg" alt="">
+        </div>
+        <div class="modal-content-right">
+            <form action="/" method="GET" class="modal-form" id="form">
+            <h1>Become the member of this online store by filling out the information below</h1>
+            <div class="form-validation">
+                <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name">
+                <p>Error message</p>
+            </div>
+            <div class="form-validation">
+                <input type="email" class="modal-input" id="email" name="email" placeholder="Enter your email">
+                <p>Error message</p>
+            </div>
+            <div class="form-validation">
+                <input type="password" class="modal-input" id="password" name="password" placeholder="Enter your password">
+                <p>Error message</p>
+            </div>
+            <div class="form-validation">
+                <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Confirm your password">
+                <p>Error message</p>
+            </div>
+            <input type="submit" class="modal-input-btn" value="Sign Up"> 
+            
+           
+             
+            
+            </form>
+            
+        </div>
+    </div>
+</div>
+<script src="retail.js"></script>
+</body>
+</head>
+</html>
